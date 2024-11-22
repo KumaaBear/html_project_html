@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>My Home Page</title>
+		<meta charset="utf-8">
+		<meta name="author" content="NINA ANDREI S. ANONUEVO">
+		<meta name="description" content="This is webpage is all about the Home Page of the author.">
+		<link rel="icon" href="icon.png" type="image/x-icon">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="CSS/index.css">
+	</head>
+<body>
+	<!--ANONEUVO, NINA ANDREI S-->
+	<!--MARCH 16, 2022-->
+	<div class="navigation">
+		<ul>
+			<li><a href="index.html" class="fa fa-home" style="font-size:30px; margin:1px; color:#ffffff;"></a></li>
+			<li><a target="_blank" href="https://web.facebook.com/ninaandrei.anonuevo/" class="fa fa-facebook" style="font-size:30px; margin:5px; color:#ffffff;"></a></li>
+			<li><a target="_blank" href="https://twitter.com/ninyawaa" class="fa fa-twitter" style="font-size:30px; margin:1px; color:#ffffff;"></a></li>
+			<li><a target="_blank" href="https://www.instagram.com/ninyawaaa/" class="fa fa-instagram" style="font-size:30px; margin:1px; color:#ffffff;"></a></li>
+			<li><a href="mailto:anonuevo.ninaandrei@ue.edu.ph" class="fa fa-envelope-o" style="font-size:30px; margin:1px; color:#ffffff;"></a></li>
+		</ul>
+	</div>
+	
+	<div class="main-pp">
+		<div class="profile-pic">
+			<img class="self" src="IMAGE/me-3.png" alt="añonuevo-profile">
+		</div>
+	</div>
+	
+	<div class="profile-name">
+		<h1>niña andrei s. añonuevo</h1>
+	</div>
+
+<div class="img-container">
+	<div class="single-img">
+		<img title="About Me" class="img-design" src="IMAGE/ICONS/biography-icon.png" alt="biography-icon" style="width:45%">
+		<a target="_blank" href="BIOGRAPHY/ANONUEVO_BIOGRAPHY_ITCD.html"><h3 title="About Me" class="btn">BIOGRAPHY</h3></a>
+	</div>
+
+	<div class="single-img">
+		<img title="My Future" class="img-design" src="IMAGE/ICONS/future-icon.png" alt="future-icon" style="width:45%">
+		<a href="#"><h3 title="My Future" class="btn future">MY FUTURE</h3></a>
+	</div>
+
+	<div class="single-img">
+		<img title="Resume" class="img-design" src="IMAGE/ICONS/resume-icon.png" alt="resume-icon" style="width:45%">
+		<a href="RESUME/ANONUEVO_RESUME_SECTION.html"><h3 title="Resume" class="btn">RESUME</h3></a>
+	</div>
+
+	<div class="single-img">
+		<img title="Bucket List" class="img-design" src="IMAGE/ICONS/bucket-list-icon.png" alt="bucket-list-icon" style="width:45%">
+		<a href="#"><h3 title="Bucket List" class="btn bucket">MY BUCKET LIST</h3></a>
+	</div>
+
+	<div class="single-img">
+		<img title="Photo Gallery" class="img-design" src="IMAGE/ICONS/camera-icon.png" alt="camera-icon" style="width:45%">
+		<a href="GALLERY/photogallery.html"><h3 title="Photo Gallery" class="btn">PHOTO GALLERY</h3></a>
+	</div>
+	
+	<div class="single-img">
+		<img title="Interest" class="img-design" src="IMAGE/ICONS/interest-icon.png" alt="camera-icon" style="width:45%">
+		<a href="INTEREST/ANONUEVO_INTEREST_ITCD.html"><h3 title="My Interest" class="btn">INTEREST</h3></a>
+	</div>
+	
+	<div class="single-img">
+		<img title="Future Travel" class="img-design" src="IMAGE/ICONS/airplain-icon.png" alt="camera-icon" style="width:45%">
+		<a href="#"><h3 title="Future Travel" class="btn travel">FUTURE TRAVEL</h3></a>
+	</div>
+	
+	<div class="single-img">
+		<img title="My Beats" class="img-design" src="IMAGE/ICONS/earphone-icon.png" alt="camera-icon" style="width:45%">
+		<a href="MUSIC/music-2.html"><h3 title="K-POP songs" class="btn songs">MY BEATS</h3></a>
+	</div>
+	
+	<div class="single-img">
+		<img title="My Kind of Film" class="img-design" src="IMAGE/ICONS/film-icon.png" alt="video-cam-icon" style="width:45%">
+		<a href="FILM/film.html"><h3 title="K-POP songs" class="btn songs">KIND OF FILM</h3></a>
+	</div>
+</div>
+
+<div class="footer">
+	<p><q>If you feel like <span><strong>quitting</strong></span>, think again why you started</q></p>
+</div>
+
+</body>
+</html>

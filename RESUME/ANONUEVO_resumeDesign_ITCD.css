@@ -1,0 +1,126 @@
+body{
+	margin: 0px;
+	background-image:url('../IMAGE/HOME/cat-a3.png');
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	background-size: 100% 100%;
+
+	font-family:Arial, sans-serif;
+}
+h4{
+	color:crimson;
+}
+ul.resume-educ{
+    border-left:5px solid #993300;
+    background-color:#f1f1f1;
+    list-style-type:none;
+    padding:10px 20px;
+	margin-right: 50%;
+}
+.resume-bg{
+	float:left;
+    margin-top:50px;
+	margin-left:absolute;
+    height:auto;
+    width:100%;
+    background-color:#ffffff;
+}
+.resume-header{
+	background:#993300;
+	height:220px;
+}
+.resume-picture{
+	width:220px;
+	height:220px;
+	float:left;
+	border:0;
+}
+.resume-h3{
+    text-decoration:underline;
+}
+.group-head-information{
+	font-size:1.125em;
+	margin-left:17rem;
+	text-align:left;
+	padding:85px;
+	padding-left:0px;
+	line-height:20px;
+	color:#ffffff;
+}
+.resume-work-position{
+	font-family:'Times New Roman', sans-serif;
+	font-size:1.252em;
+}
+.name-author{
+	color:#ffffff; 
+	margin:0;
+	line-height:0px;
+	text-shadow:5px 3px 5px #000000;
+	font-variant: small-caps;
+	font-size:2.000em;
+}
+.resume-email{
+	line-height:5px;
+	font-size:1.125em;
+}
+.resume-number{
+	line-height:20px;
+	font-size:1.125em;
+}
+.resume-margin{
+	margin-left:20px;
+	margin-top:20px;
+}
+#resume-quote{
+	color: #4A3B03;
+	text-shadow:1px 2px 2px #999900;
+	text-align: center;
+	font-size:1.128em;
+	font-family: arial, sans-serif;
+	font-variant: small-caps;
+	padding-top:20px;
+}
+#educational-table{
+    font-weight:900;
+	text-transform: uppercase;
+	text-shadow:1px 1px 2px gray;
+}
+#resume-header-title{
+	color:#993d00;
+	font-size:3em;
+	font-variant:small-caps;
+	word-spacing:10px;
+	text-shadow:3px 4px 8px #ffad33;
+}
+#footer{
+    height:30px;
+    clear:both;
+    position:relative;
+    background-color:#993300;
+}
+.navigation {
+	height: 50px;
+	position: sticky;
+	top:50% !important;
+	bottom:auto;
+}
+	.nav-icon{
+		list-style-type:none;
+		margin:0;
+		padding:0;								
+		width:50px;								
+		background-color:#000000;
+		opacity:0.2;
+	}
+	li a {				
+		isplay: block;
+		color: #000;
+		padding: 8px 10px;
+		text-decoration: none;
+	}
+		li a:hover {
+		background-color:#000000;
+		color: white;
+		width:40px;
+	}

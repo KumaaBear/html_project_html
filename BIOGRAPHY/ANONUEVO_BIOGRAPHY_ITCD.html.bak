@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>ABOUT ME</title>
+	<meta charset="utf-8">
+	<meta name="author" content="NINA ANDREI S. ANONUEVO">
+	<meta name="description" content="This is all about my Biography">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="icon" href="image/bear-icon.png" type="image/x-icon">
+		<style>
+			blockquote{
+				font-family:Verdana, Geneva, Tahoma, sans-serif;
+				font-size: 1em;
+				line-height: 30px;
+			}
+			h2{
+				font-family: Okana;
+				font-size:2em;
+				font-variant: small-caps;
+				letter-spacing: 1.5px;
+				word-spacing: 4px;
+			}
+			h1{
+				font-family: Tahoma;
+				font-size: 2em;
+				text-shadow:2px 1px 2px white;
+				
+			}
+			h4{
+				color: crimson;
+				font-size: 1em;
+			}
+			body{
+				margin: 0px;
+				background-image:url('../IMAGE/HOME/cat-a3.png');
+				background-repeat:no-repeat;
+				background-attachment:fixed;
+				background-size:cover;
+				background-size: 100% 100%;
+				margin-left:0;
+				margin:0 auto;
+				display:inline-table; 
+			}
+			.icon-container{
+				display:flex;
+				flex-wrap:wrap;
+				flex-direction:row;	
+				justify-content:center;
+				align-items:center;
+			}
+			.second-icon-container{
+				font-family:'roboto', monospace;
+				font-variant:small-caps;
+				font-size:1.988em;
+			}
+			.childhood-icon{
+				height:80px;
+			}
+				.childhood-icon:hover{
+					background-color:#FFFFFF;
+					border:1px solid #5A522E;
+					border-radius:20px;
+					border:4px ridge;
+					border-left-color:#FF7C66;
+					border-top-color:#FF7C66;
+					border-right-color:#000000;
+					border-bottom-color:#000000;
+					transform: scale(1.2);
+					transition:0.3s;
+					cursor:pointer;
+					padding-right:5;	
+					opacity:1;
+				}
+			.teen-icon{
+				height:80px;
+				margin-left:50px;				
+			}
+				.teen-icon:hover{
+					background-color:#FFFFFF;
+					border:1px solid #5A522E;
+					border-radius:20px;
+					border:4px ridge;
+					border-left-color:#f000000;
+					border-top-color:#FF7C66;
+					border-right-color:#000000;
+					border-bottom-color:#FF7C66;
+					transform: scale(1.2);
+					cursor:pointer;
+					padding-right:5;	
+					transition:0.3s;
+					opacity:1;
+				}
+			.college-icon{
+				height:80px;
+				margin-left:50px;
+			}
+				.college-icon:hover{
+					background-color:#FFFFFF;
+					border:1px solid #5A522E;
+					border-radius:20px;
+					border:4px ridge;
+					border-left-color:#000000;
+					border-top-color:#FF7C66;
+					border-right-color:#FF7C66;
+					border-bottom-color:#000000;
+					transform: scale(1.2);
+					transition:0.3s;
+					cursor:pointer;
+					padding-right:5;	
+					opacity:1;
+				}
+			.top:hover{
+				transform: scale(1.8);
+				cursor:pointer;
+				padding-right:5;	
+				transition:0.3s;
+			}
+			.navigation {
+				height: 50px;
+				position: sticky;
+				top:50% !important;
+				bottom:auto;
+			}
+				ul{
+					list-style-type:none;
+					margin:0;
+					padding:0;
+					width:50px;
+					background-color:#000000;
+				}
+				li a {
+					display: block;
+					color: #000;
+					padding: 8px 10px;
+					text-decoration: none;
+				}
+				li a:hover {
+					background-color:#000000;
+					color: white;
+					width:40px;
+				}
+			.my-childhood-photos{
+				height:250px;
+				width:200px;
+				display:flex;
+				flex-direction:row;	
+				justify-content:center;
+			}
+				.img-container{
+					margin-right:30px;
+					border-radius:20%;
+					width:400px;
+					padding:8px;
+					background:#ccc;
+					border:2px solid #666;
+					box-shadow: 5px 5px 5px #999;
+				}
+			#middleBody{
+				text-align;
+				background:rgba(255,255,255,.7);
+			}	
+		</style>
+</head>
+
+<body>
+	<!--ANONUEVO, NINA ANDREI-->
+	<!--FEBRUARY 10, 2022-->
+<h1 id="header">&nbsp;ABOUT ME AND NO OTHER THAN ME</h1>
+	<h4><pre><u>	CIP_1101: INTEGRATIVE PROGRAMMING AND TECHNOLOGIES</u></pre></h4>
+<hr width="100%" size="2" color="#4A3B03" align="left">
+<hr width="100%" size="2" color="#4A3B03" align="left">
+
+<br><br><br>
+
+<div class="navigation">
+	<ul>
+		<li><a href="../index.html" class="fa fa-home" style="font-size:30px; margin:1px; color:#ffffff;"></a></li>
+		<li><a target="_blank" href="https://web.facebook.com/ninaandrei.anonuevo/" class="fa fa-facebook" style="font-size:30px; margin:5px; color:#ffffff;"></a></li>
+		<li><a target="_blank" href="https://twitter.com/ninyawaa" class="fa fa-twitter" style="font-size:30px; margin:1px; color:#ffffff;"></a></li>
+		<li><a target="_blank" href="https://www.instagram.com/ninyawaaa/" class="fa fa-instagram" style="font-size:30px; margin:1px; color:#ffffff;"></a></li>			<li><a href="mailto:anonuevo.ninaandrei@ue.edu.ph" class="fa fa-envelope-o" style="font-size:30px; margin:1px; color:#ffffff;"></a></li>
+	</ul>
+</div>
+
+	<div class="icon-container">
+		<div class="second-icon-container">
+			<a href="#childhood"><img class="childhood-icon" title="Go to Childhood Years" src="image/ICON/child-icon.png"></a><h5>childhood</h5>
+		</div>
+		<div class="second-icon-container">
+			<a href="#teenage"><img class="teen-icon" title="Go to Teenage Years" src="image/ICON/teen-icon.png"></a><h5 style="margin-left:50px">teenage</h5>
+		</div>
+		<div class="second-icon-container">
+			<a href="#college"><img class="college-icon" title="Go to College Years"src="image/ICON/college-icon.png"></a><h5 style="margin-left:50px">college</h5>
+		</div>
+	</div>
+
+<br><br>
+<hr width="30%" size="4" color="#c90303" align="center">
+<hr width="25%" size="3" color="#c90303" align="center">
+
+<div id="middleBody">
+<h2 id="childhood" style="text-align:center">Childhood Years</h2>
+<div align="justify">
+	<p><blockquote><blockquote><blockquote><blockquote><blockquote><blockquote>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><sup>1</sup></b>First is my <strong>Childhood Years</strong>.<b><sup>2</sup></b> I was born on August 10, 2001, at Bacoor Cavite and I have three siblings.<b><sup>3</sup></b> My eldest sister name is <i>Ruegin S. Añonuevo</i>, followed by <i>Erika S. Añonuevo</i> and <i>Royce Gee S. Añonuevo</i>.<b><sup>4</sup></b> My parents name are <i>Ruben P. Añonuevo</i> and <i>Gina S. Añonuevo</i>.<b><sup>5</sup></b> My childhood years were fun and cool until my mother died. She died when I was 10 years old a coming grade 5 student.<b><sup>6</sup></b> When my mother died I feel weak, I feel I am lost, I do not know what to do without my Mother.<b><sup>7</sup></b> I was still a child back then, I am the one who's with her every time and I can not believe in just a blink of an eye I lost her.<b><sup>8</sup></b> I act strong in front of everyone because my Mom always tells me that be strong in every moment of my life and take courage.<b><sup>9</sup></b> Life must go on, I must graduate and make my mother proud even she was not here by our side because I know somewhere out there she is still with us.<b><sup>10</sup></b> My mom friends look after me in the school they were nice.<b><sup>11</sup></b> When I was a grade 6 student I decided to join journalism just to try some new in my life.<b><sup>12</sup></b> I joined cartooning even my drawing is bad I still want to try.<b><sup>13</sup></b> My classmates and proctor are very nice and talented because of them I still want to continue to draw but I am too lazy to practice and improve my skills.<b><sup>14</sup></b> At the competition, my drawing got complimented by the judges they said it looks like <b>President Benigno Aquino III</b>.<b><sup>15</sup></b> I felt happy and motivated that day.<b><sup>16</sup></b> I never regret joining journalism I gained experience back then, but I started to decide to stop drawing for some reason.<b><sup>17</sup></b>I am not a smart kid I am a lazy kid but, I let myself stay in the start section when I was in grade school because my mother wants me always to stay in the star section.<b><sup>18</sup></b> I graduated elementary with the award of <i>Huwaran</i> and no special awards because after my first competition I quit journalism.<b><sup>19</sup></b> I got distracted and I enjoy watching anime and doing nothing except watching.<b><sup>20</sup></b> I am afraid to go to High-school, I am afraid of what kind of people I will meet when I started to transfer school. </blockquote></blockquote></blockquote></blockquote></blockquote></blockquote></p></div>
+	
+	<br>
+	<div align="center">
+		<div class="my-childhood-photos">
+			<img class="img-container" src="image/CHILDHOOD/childhood-1.jpg" alt="">
+			<img class="img-container" src="image/CHILDHOOD/childhood-2.jpg" alt="">
+			<img class="img-container" src="image/CHILDHOOD/childhood-3.jpg" alt="">
+			<img class="img-container" src="image/CHILDHOOD/childhood-4.jpg" alt="">
+		</div>
+	
+	
+	<br>
+	<a href="#header"><img class="top" title="Go back to top" src="image/ICON/up-icon.png"></a>
+	</div>	
+
+<hr hr width="20%" size="2" color="#000000" align="center">
+<br>
+
+
+	<h2 id="teenage" style="text-align:center">Teenage Years</h2>
+	<div align="justify">
+	<p><blockquote><blockquote><blockquote><blockquote><blockquote><blockquote>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><sup>1</sup></b> Second is my <strong>Teenage Years</strong>.<b><sup>2</sup></b> When I was teenager I really enjoy my life, I started to explore somethings that I didn't done before.<b><sup>3</sup></b> I met good friends, good people,  and a good teachers that always guide us to the right path.<b><sup>4</sup></b> I remember when I was a grade 11 student at AMA Computer Colleges Cavite it is the first time someone baked a cake for me, my classmate baked a cake for my birthday.<b><sup>5</sup></b> I am very thankful I met them.<b><sup>6</sup></b> My teenage life is full of happy memories, sad memories, struggles, and betrayal.<b><sup>7</sup></b> I am always one of the boys we always goofing around, playing together online games, and many more.<b><sup>8</sup></b> I am the class president when I was a grade 11 but I am the one who always does silly things.<b><sup>9</sup></b> I remember when I made my classmate cry but It Was not my intention to make him cry.<b><sup>10</sup></b> He's the one who started it I just defend myself but I feel sorry for him, well before the class ends I say sorry to him for what I have done and say to him, but I never said foul words and didn't hurt him physically either.<b><sup>11</sup></b> One moment we had a quiz in programming and it was all about deciphering and cipher codes, I didn't review much because I had headaches that time, but when I saw the result of my quiz I am the highest and I can't believe it I wonder what kind of brain I have that time.<b><sup>12</sup></b> I love supporting my classmates when they are joining school events, I am the most hyper and always shout their names when they were called.<b><sup>13</sup></b> Teenage life is full of wonderful memories and you love to go back.<b><sup>14</sup></b> The most difficult moment for me when I was in my teenage days is our work immersion.<b><sup>15</sup></b> My immersion is at the Municipality of the General Trias Cavite 1 hour of travel from our house.<b><sup>16</sup></b> That time I realize working is hard and being with other people is hard to be with also.<b><sup>17</sup></b> I remember when the Taal Volcano erupts our school at Ara Vista near Silang and Tagaytay is full of ashes.<b><sup>18</sup></b> It's like snow but black and it was the time that N-Cov virus is spreading.<b><sup>19</sup></b> Spending time with your friends is the best.<b><sup>20</sup></b> I also love my 18<sup>th</sup> birthday because all of my friends in my Senior Highschool came and spend time with me.<b><sup>21</sup></b> My Friends when I was in Junior Highschool also celebrated my birthday with me.</blockquote></blockquote></blockquote></blockquote></blockquote></blockquote></p></div>
+	<div align="center">
+		<div class="my-childhood-photos">
+			<img class="img-container" src="image/TEENAGE/teenage-2.jpg" alt="">
+			<img class="img-container" src="image/TEENAGE/teenage-4.jpg" alt="">
+			<img class="img-container" src="image/TEENAGE/teenage-5.jpg" alt="">
+			<img class="img-container" src="image/TEENAGE/teenage-6.jpg" alt="">
+		</div>
+		
+
+	<br>
+	<a href="#header"><img class="top"  title="Go back to top" src="image/ICON/up-icon.png"></a>
+	</div>
+
+<br>
+<hr hr width="20%" size="2" color="#000000" align="center">
+<br>
+
+
+	<h2 id="college" style="text-align:center">College Years</h2>
+	<div align="justify">
+	<p><blockquote><blockquote><blockquote><blockquote><blockquote><blockquote>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><sup>1</sup></b>Third is my <strong>College Years</strong>.<b><sup>2</sup></b>College is just fine but a very tough one because of the Covid-19.<b><sup>3</sup></b> The virus ruins everything, it cause a lot of damage to many people and it ruined my College life.<b><sup>4</sup></b> I am very excited when my Father agree that I will go to college in Manila with my cousins.<b><sup>5</sup></b> Suddenly there is a virus that causes a great disaster and it made all the people stay inside of their house, stay healthy and wear a mask when you will go out to buy some food or anything you need.<b><sup>6</sup></b> I came from a school that already has Blended Learning so the online class is nothing to me.<b><sup>7</sup></b> In my first year here at the University of the East Manila, I am nervous because I do not know everybody I do not have friends or acquaintances except my cousins.<b><sup>8</sup></b> I am studying for a Bachelor of Science in Information Technology, because one day I would like to build my website even I suck at designing but still I enjoy designing.<b><sup>9</sup></b> Every semester is a tough battle for a lazy and slow learner like me but still, I manage to pass all my subjects.<b><sup>10</sup></b> I am now a second-year college and this webpage is made for my activity in one of my subjects.<b><sup>11</sup></b> I hope this went well and learn more about designing web pages even I am still not that smart when it comes to written works.<b><sup>12</sup></b> I will try my best to graduate college and find a better job in the future.<b><sup>13</sup></b> I know it is still a long journey for me, I will not stop aiming for something that will benefit me.<b><sup>14</sup></b> Being in College is not easy, it's not like when I was a Highschool student.<b><sup>15</sup></b> In College, if you want to survive you must do all the tasks that were given to you because when you fail a subject you fail no other than that.<b><sup>16</sup></b> My studies right now are fine I hope it will go well.<b><sup>17</sup></b> Being an IT student and a lazy person is a tough battle to get a higher grade in every subject.<b><sup>18</sup></b> I need to finish all my units and I don't want to have back subjects I don't want to be left behind. <b><sup>19</sup></b> I will work hard so that I will have a good job in the future.<b><sup>20</sup></b> College is tough even in the online class because sometimes my personal computer always hangs because of its low specs, but I will keep trying to finish this course and make my family proud.</blockquote></blockquote></blockquote></blockquote></blockquote></blockquote></p></div>
+	<div align="center">
+		<div class="my-childhood-photos">
+			<img class="img-container" src="image/COLLEGE/college-3-2021.jpg" alt="">
+			<img class="img-container" src="image/COLLEGE/college-4.jpg" alt="">
+			<img class="img-container" src="image/COLLEGE/college-5.jpeg" alt="">
+			<img class="img-container" src="image/COLLEGE/college-1-2022.jpg" alt="">
+		</div>
+	
+<br>
+
+	<a href="#header"><img class="top" title="Go back to top" src="image/ICON/up-icon.png"></a>
+	</div>
+	
+<br>
+
+</div>
+<hr hr width="25%" size="3" color="#c90303" align="center">
+<hr hr width="30%" size="4" color="#c90303" align="center">
+
+<br><br>
+<div align="center">
+<p><b><q> PATIENCE<br>IS THE COMPANION OF WISDOM </q></b><br>Saint Augustine</p>
+</div>
+<p style="text-align:center"><code>Submitted to: Mrs. Mary Grace Garces Ventura </code></p>
+
+</body>
+</html>

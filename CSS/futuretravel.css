@@ -1,0 +1,82 @@
+body{
+	background-image:url('../IMAGE/HOME/cat-a3.png');
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size: 100% 100%;
+	margin:0 auto;
+}
+h1{
+	font-family: 'roboto',monospace;
+	font-variant:small-caps;
+	font-size:5em;
+	text-shadow:1px 1px 3px #ED4C30;
+	padding-left:50px;
+	margin-top:0;
+}
+/*This is for navigation*/
+.navigation {
+	position: sticky;
+	top:50% !important;
+	bottom:auto;
+	height: 50px;
+}
+	ul{
+		list-style-type:none;
+		margin:0;
+		padding:0;
+		width:50px;
+		background-color:#000000;
+	}
+	li a{
+		display:block;
+		color:#000;
+		padding:8px 10px;
+		text-decoration:none;
+	}
+	li a:hover{
+		color:white;
+		background-color:#000000;
+		width:40px;
+	}
+.nav-img{
+	height:30px;
+	width:30px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:tranparent;
+}
+
+/*This is for future image landing pic*/
+.picture-container img{
+	margin-left: -200px;
+	margin-bottom: 3%;
+	box-shadow: 5px 5px 10px 10px black;
+}
+
+
+/*this is for javascript*/
+p#text{
+	text-indent: 1em;
+	font-family:Verdana, Calibri, sans-serif;
+	font-size:1.500em;
+	color:black;		
+}
+.text-wrapper{
+	float: left;
+	text-align: justify;
+	margin-left: 2%;
+	width: 350px;
+	font-size: 1.115em;
+}
+
+/*media for all*/
+@media (max-width: 1670px){
+	.text-wrapper{
+		font-size: 1em;
+		
+		position: absolute;
+	}
+	p{
+		background: rgba(255, 255, 255, .8);
+	}
+}

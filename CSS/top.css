@@ -1,0 +1,221 @@
+html {
+  box-sizing: border-box;
+}
+body{
+	background-image:url('../IMAGE/HOME/cat-a3.png');
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size: cover;
+	background-size: 100% 100%;
+	margin:0 auto;
+}
+h1{
+	font-family: 'roboto',monospace;
+	font-variant:small-caps;
+	font-size:5em;
+	text-shadow:1px 1px 3px #ED4C30;
+	padding-left:50px;
+	margin-top:0;
+
+}
+h2{
+	background-color: black;
+	color: #ED4C30;
+	font-family: 'roboto',monospace;
+	font-variant:small-caps;
+	font-size:2.55em;
+	text-align: center;
+}
+/*This is for navigation*/
+.navigation {
+	position: sticky;
+	top:50% !important;
+	bottom:auto;
+	height: 50px;
+}
+	ul{
+		list-style-type:none;
+		margin:0;
+		padding:0;
+		width:50px;
+		background-color:#000000;
+	}
+	li a{
+		display:block;
+		color:#000;
+		padding:8px 10px;
+		text-decoration:none;
+	}
+	li a:hover{
+		color:white;
+		background-color:#000000;
+		width:40px;
+	}
+.nav-img{
+	height:30px;
+	width:30px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:tranparent;
+}
+
+/*container*/
+.container{
+	background-color: #333;
+	height: auto;
+	margin-bottom: 5%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 5%;
+}
+.waifuu:link{
+	text-decoration: none;
+}
+.waifuu{
+	color: black;
+}
+.husbandoo:link{
+	text-decoration: none;
+}
+.husbandoo{
+	color: black;
+}
+/*anime picture css*/ /*waifu*/
+.dress-up-darling{
+	box-shadow: 5px 5px 5px #ffccff;
+	height: 550px;
+	width: 300px;
+	margin: 2%;
+}
+.demon-slayer{
+	box-shadow: 5px 5px 5px #003399;
+	height: 550px;
+	width: 300px;
+	margin: 2%;
+}
+.yashahime{
+	box-shadow: 5px 5px 5px #cce6ff;
+	height: 550px;
+	width: 300px;
+	margin: 2%;
+}
+.jobless{
+	box-shadow: 5px 5px 5px #00bfff;
+	height: 550px;
+	width: 300px;
+	margin: 2%;
+}
+.arifureta{
+	box-shadow: 5px 5px 5px #800000;
+	height: 550px;
+	width: 300px;
+	margin: 2%;
+}
+
+/*anime text*/
+.anime-text{
+	line-height: 1.55em;
+	width: 400px;
+	font-size: 1.325em;
+	color: white;
+	text-align: justify;
+	display: inline-block;
+	vertical-align: top;
+}
+
+/*go up container*/
+.up{
+	text-align: right;
+}
+.up-text{
+	border:1px solid black;
+	border-radius:20%;
+	padding:5px 10px;
+	font-size: 1.225em;
+	font-family:verdana, sans-serif;
+	font-variant:small-caps;
+	margin:2%;
+	color:white;
+}
+a.up-text:link{
+	text-decoration: none;
+	background-color: black;
+	box-shadow: 5px 5px 5px #ED4C30;
+}
+a.up-text:hover{
+	text-decoration: none;
+	color: black;
+	background-color: #ED4C30;
+	box-shadow: 5px 5px 5px lightcyan;
+}
+
+
+/*embed video*/
+.video-yt{
+	float: right;
+	margin-right: 2%;
+	margin-top: 10%;
+	width: 400px;
+	height: 300px;
+}
+
+/*choicer*/
+.picture-choicer-container{
+	border:2px solid black;
+	border-radius:5%;
+	background-color:#fff;
+	padding:45px;
+	width:400px;
+	margin:40px;
+	margin-left:100px;
+	box-shadow: 5px 5px 7px #FF7C66;
+}
+.choice-container{
+	border:1px solid black;
+	border-radius:20%;
+	padding:10px 20px;
+	font-size:1.150em;
+	font-family:verdana, sans-serif;
+	font-variant:small-caps;
+	margin:10px;
+	color:black;
+}
+	a.choice-container:hover{
+		color:white;
+		font-weight:heavy;
+		background-color:#000;
+		text-decoration:none;
+		box-shadow: 5px 5px 5px #FF7C66;
+	}
+	.choice-container:link{
+		text-decoration:none;
+		background-color:#FF7C66;
+		box-shadow: 5px 5px 5px #000000;
+	}
+
+	/*media for all*/
+@media (max-width: 677px){
+	.video-yt{
+		width: 410px;
+	}
+	.anime-text{
+		width: 340px;
+		margin-left: 2%;
+	}
+	.picture-choicer-container{
+		margin-left: 40px;
+		width: 320px;
+	}
+	.drop-down-container{
+		display: inline-block;
+	}
+	.choice-container{
+		font-size: 1em;
+		width: 10px;
+		margin-left: -2px;
+	}
+	h1{
+		font-size: 3.55em;
+		background: rgba(255, 255, 255, .8);
+	}
+}

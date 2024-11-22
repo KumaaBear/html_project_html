@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Photo Gallery</title>
+	<meta charset="utf-8">
+	<meta name="author" content="NINA ANDREI S. ANONUEVO">
+	<meta name="description" content="This is webpage is all about the Home Page of the author.">
+	<link rel="icon" href="icon.png" type="image/x-icon">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../CSS/photogallery.css">
+</head>
+<body id="header">
+	<!--NINA ANDREI S. ANONUEVO-->
+	<!--MARCH 20, 2022-->
+	
+<h1 class="welcome">Welcome to Photo Gallery</h1>
+		
+	<div class="picture-choicer-container">
+		<a class="choice-container" href="#call-pet"><img src="">my pet</a>
+		<a class="choice-container" href="#call-fam"><img src="">my fam</a>
+		<a class="choice-container" href="#call-drawing"><img src="">my drawings</a>
+		<a class="choice-container" href="#call-shs"><img src="">senior high-school</a>
+	</div>
+
+	<div class="navigation">
+		<ul>
+			<li><a href="../index.html" class="fa fa-home" style="font-size:30px; margin:1px; color:#ffffff;"></a></li>
+			<li><a target="zoom-pic" href="https://web.facebook.com/ninaandrei.anonuevo/" class="fa fa-facebook" style="font-size:30px; margin:5px; color:#ffffff;"></a></li>
+			<li><a target="zoom-pic" href="https://twitter.com/ninyawaa" class="fa fa-twitter" style="font-size:30px; margin:1px; color:#ffffff;"></a></li>
+			<li><a target="zoom-pic" href="https://www.instagram.com/ninyawaaa/" class="fa fa-instagram" style="font-size:30px; margin:1px; color:#ffffff;"></a></li>
+			<li><a href="mailto:anonuevo.ninaandrei@ue.edu.ph" class="fa fa-envelope-o" style="font-size:30px; margin:1px; color:#ffffff;"></a></li>
+		</ul>
+	</div>	
+
+	<div class="opening-bg">
+		<div align="center">
+			<img class="wall-1" src="4-wallpaper.jpg">
+			<img class="wall-2" src="2-wallpaper.jpg">
+			<img class="wall-3" src="5-wallpaper.jpg">
+			<div class="shadow"></div>
+		</div>
+	</div>
+
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	
+	<div id="call-pet">
+		<div class="my-pet-containter">
+			<h2 class="photo-title">My Pet</h2>
+		</div>
+	</div>
+	
+	<div class="photo-wrapper">		
+		<i>
+			<a target="zoom-pic" href="../IMAGE/GALLERY/PET/ming-1.jpeg"><img src="../IMAGE/GALLERY/PET/ming-1.jpeg"></a>
+		</i>
+		<i>
+			<a target="zoom-pic" href="../IMAGE/GALLERY/PET/ming-3.jpeg"><img src="../IMAGE/GALLERY/PET/ming-3.jpeg"></a>
+		</i>
+		<i>
+			<a target="zoom-pic" href="../IMAGE/GALLERY/PET/ming-4.jpeg"><img src="../IMAGE/GALLERY/PET/ming-4.jpeg"></a>
+		</i>	
+		<i>
+			<a target="zoom-pic" href="../IMAGE/GALLERY/PET/pet-7.jpeg"><img src="../IMAGE/GALLERY/PET/pet-7.jpeg"></a>
+		</i>
+		<i>
+			<a target="zoom-pic" href="../IMAGE/GALLERY/PET/pet-10.jpeg"><img src="../IMAGE/GALLERY/PET/pet-10.jpeg"></a>
+		</i>
+		<i>
+			<a target="zoom-pic" href="../IMAGE/GALLERY/PET/pet-11.jpeg"><img src="../IMAGE/GALLERY/PET/pet-11.jpeg"></a>
+		</i>
+		<i>
+			<a target="zoom-pic" href="../IMAGE/GALLERY/PET/pet-14.jpeg"><img src="../IMAGE/GALLERY/PET/pet-14.jpeg"></a>
+		</i>
+		<i>
+			<a target="zoom-pic" href="../IMAGE/GALLERY/PET/pet-15.jpeg"><img src="../IMAGE/GALLERY/PET/pet-15.jpeg"></a>
+		</i>
+		<i>
+			<a target="zoom-pic" href="../IMAGE/GALLERY/PET/pet-dog-1.jpeg"><img src="../IMAGE/GALLERY/PET/pet-dog-1.jpeg"></a>
+		</i>
+		<i>
+			<a target="zoom-pic" href="../IMAGE/GALLERY/PET/pet-dog-2.jpeg"><img src="../IMAGE/GALLERY/PET/pet-dog-2.jpeg"></a>
+		</i>
+		<i>
+			<a target="zoom-pic" href="../IMAGE/GALLERY/PET/pet-dog-5.jpeg"><img src="../IMAGE/GALLERY/PET/pet-dog-5.jpeg"></a>
+		</i>
+		<i>
+			<a target="zoom-pic" href="../IMAGE/GALLERY/PET/pet-16.jpg"><img src="../IMAGE/GALLERY/PET/pet-16.jpg"></a>
+		</i>
+		<i>
+			<a target="zoom-pic" href="../IMAGE/GALLERY/PET/pet-17.jpg"><img src="../IMAGE/GALLERY/PET/pet-17.jpg"></a>
+		</i>
+	</div>
+	<a href="#header"><img class="top" title="Go back to top" src="../IMAGE/ICONS/up-icon.png"></a>
+
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+	
+	<div id="call-fam">
+		<div class="my-family-container">
+			<h2 class="photo-title">My Family</h2>
+		</div>
+	</div>	
+	
+		<div class="photo-wrapper">		
+		<i>
+			<a target="zoom-pic" href="../IMAGE/GALLERY/FAM/fam-1.jpeg"><img src="../IMAGE/GALLERY/FAM/fam-1.jpeg"></a>
+		</i>
+		<i>
+			<a target="zoom-pic" href="../IMAGE/GALLERY/FAM/fam-3.jpg"><img src="../IMAGE/GALLERY/FAM/fam-3.jpg"></a>
+		</i>
+		<i>
+			<a target="zoom-pic" href="../IMAGE/GALLERY/FAM/fam-5.jpeg"><img src="../IMAGE/GALLERY/FAM/fam-5.jpeg"></a>
+		</i>
+		<i>
+			<a target="zoom-pic" href="../IMAGE/GALLERY/FAM/fam-6.jpeg"><img src="../IMAGE/GALLERY/FAM/fam-6.jpeg"></a>
+		</i>
+		<i>
+			<a target="zoom-pic" href="../IMAGE/GALLERY/FAM/fam-7.jpeg"><img src="../IMAGE/GALLERY/FAM/fam-7.jpeg"></a>
+		</i>
+		<i>
+			<a target="zoom-pic" href="../IMAGE/GALLERY/FAM/fam-8.png"><img src="../IMAGE/GALLERY/FAM/fam-8.png"></a>
+		</i>
+		<i>
+			<a target="zoom-pic" href="../IMAGE/GALLERY/FAM/fam-11.jpeg"><img src="../IMAGE/GALLERY/FAM/fam-11.jpeg"></a>
+		</i>
+		<i>
+			<a target="zoom-pic" href="../IMAGE/GALLERY/FAM/fam-12.jpg"><img src="../IMAGE/GALLERY/FAM/fam-12.jpg"></a>
+		</i>
+		<i>
+			<a target="zoom-pic" href="../IMAGE/GALLERY/FAM/fam-13.jpg"><img src="../IMAGE/GALLERY/FAM/fam-13.jpg"></a>
+		</i>
+		<i>
+			<a target="zoom-pic" href="../BIOGRAPHY/image/COLLEGE/college-2-2021.jpg"><img src="../BIOGRAPHY/image/COLLEGE/college-2-2021.jpg"></a>
+		</i>
+		<i>
+			<a target="zoom-pic" href="../BIOGRAPHY/image/COLLEGE/college-1-2022.jpg"><img src="../BIOGRAPHY/image/COLLEGE/college-1-2022.jpg"></a>
+		</i>
+		<i>
+			<a target="zoom-pic" href="../IMAGE/GALLERY/FAM/fam-14.jpg"><img src="../IMAGE/GALLERY/FAM/fam-14.jpg"></a>
+		</i>
+		<i>
+			<a target="zoom-pic" href="../IMAGE/GALLERY/FAM/fam-15.jpg"><img src="../IMAGE/GALLERY/FAM/fam-15.jpg"></a>
+		</i>
+		
+	</div>
+	
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	
+	<div id="call-drawing">
+		<div class="my-drawings">
+			<h2 class="photo-title">My Drawings</h2>
+		</div>
+	</div>
+	
+	<div class="photo-wrapper">		
+		<i>
+			<a target="zoom-pic" href="../IMAGE/GALLERY/DRAWING/drawing-1.png"><img src="../IMAGE/GALLERY/DRAWING/drawing-1.png"></a>
+		</i>
+		<i>
+			<a target="zoom-pic" href="../IMAGE/GALLERY/DRAWING/drawing-2.png"><img src="../IMAGE/GALLERY/DRAWING/drawing-2.png"></a>
+		</i>
+		<i>
+			<a target="zoom-pic" href="../IMAGE/GALLERY/DRAWING/drawing-3.png"><img src="../IMAGE/GALLERY/DRAWING/drawing-3.png"></a>
+		</i>	
+		<i>
+			<a target="zoom-pic" href="../IMAGE/GALLERY/DRAWING/drawing-5.png"><img src="../IMAGE/GALLERY/DRAWING/drawing-5.png"></a>
+		</i>
+		<i>
+			<a target="zoom-pic" href="../IMAGE/GALLERY/DRAWING/drawing-6.png"><img src="../IMAGE/GALLERY/DRAWING/drawing-6.png"></a>
+		</i>
+		<i>
+			<a target="zoom-pic" href="../IMAGE/GALLERY/DRAWING/drawing-7.png"><img src="../IMAGE/GALLERY/DRAWING/drawing-7.png"></a>
+		</i>
+		<i>
+			<a target="zoom-pic" href="../IMAGE/GALLERY/DRAWING/drawing-8.png"><img src="../IMAGE/GALLERY/DRAWING/drawing-8.png"></a>
+		</i>
+		<i>
+			<a target="zoom-pic" href="../IMAGE/GALLERY/DRAWING/drawing-9.png"><img src="../IMAGE/GALLERY/DRAWING/drawing-9.png"></a>
+		</i>
+		<i>
+			<a target="zoom-pic" href="../IMAGE/GALLERY/DRAWING/drawing-10.png"><img src="../IMAGE/GALLERY/DRAWING/drawing-10.png"></a>
+		</i>
+		<i>
+			<a target="zoom-pic" href="../IMAGE/GALLERY/DRAWING/drawing-11.png"><img src="../IMAGE/GALLERY/DRAWING/drawing-11.png"></a>
+		</i>
+		<i>
+			<a target="zoom-pic" href="../IMAGE/GALLERY/DRAWING/drawing-12.png"><img src="../IMAGE/GALLERY/DRAWING/drawing-12.png"></a>
+		</i>
+		<i>
+			<a target="zoom-pic" href="../IMAGE/GALLERY/DRAWING/drawing-13.png"><img src="../IMAGE/GALLERY/DRAWING/drawing-13.png"></a>
+		</i>
+		<i>
+			<a target="zoom-pic" href="../IMAGE/GALLERY/DRAWING/drawing-14.png"><img src="../IMAGE/GALLERY/DRAWING/drawing-14.png"></a>
+		</i>
+		<i>
+			<a target="zoom-pic" href="../IMAGE/GALLERY/DRAWING/drawing-15.jpg"><img src="../IMAGE/GALLERY/DRAWING/drawing-15.jpg"></a>
+		</i>
+		<i>
+			<a target="zoom-pic" href="../IMAGE/GALLERY/DRAWING/drawing-16.png"><img src="../IMAGE/GALLERY/DRAWING/drawing-16.png"></a>
+		</i>
+		<i>
+			<a target="zoom-pic" href="../IMAGE/GALLERY/DRAWING/drawing-17.png"><img src="../IMAGE/GALLERY/DRAWING/drawing-17.png"></a>
+		</i>
+		<i>
+			<a target="zoom-pic" href="../IMAGE/GALLERY/DRAWING/drawing-18.png"><img src="../IMAGE/GALLERY/DRAWING/drawing-18.png"></a>
+		</i>
+		<i>
+			<a target="zoom-pic" href="../IMAGE/GALLERY/DRAWING/drawing-19.png"><img src="../IMAGE/GALLERY/DRAWING/drawing-19.png"></a>
+		</i>
+		<i>
+			<a target="zoom-pic" href="../IMAGE/GALLERY/DRAWING/drawing-20.png"><img src="../IMAGE/GALLERY/DRAWING/drawing-20.png"></a>
+		</i>
+		<i>
+			<a target="zoom-pic" href="../IMAGE/GALLERY/DRAWING/drawing-21.png"><img src="../IMAGE/GALLERY/DRAWING/drawing-21.png"></a>
+		</i>		
+	</div>
+	
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<br><br><br><br><br>
+	
+	<div id="call-shs">
+		<div class="my-shs-container">
+			<h2 class="photo-title">Senior High-school</h2>
+		</div>
+	</div>
+	
+	<div class="photo-wrapper">	
+		<i>
+			<a target="zoom-pic" href="../IMAGE/GALLERY/SENIOR/1.jpg"><img src="../IMAGE/GALLERY/SENIOR/1.jpg"></a>
+		</i>
+		<i>
+			<a target="zoom-pic" href="../IMAGE/GALLERY/SENIOR/2.jpg"><img src="../IMAGE/GALLERY/SENIOR/2.jpg"></a>
+		</i>
+		<i>
+			<a target="zoom-pic" href="../IMAGE/GALLERY/SENIOR/3.jpg"><img src="../IMAGE/GALLERY/SENIOR/3.jpg"></a>
+		</i>	
+		<i>
+			<a target="zoom-pic" href="../IMAGE/GALLERY/SENIOR/4.jpg"><img src="../IMAGE/GALLERY/SENIOR/4.jpg"></a>
+		</i>
+		<i>
+			<a target="zoom-pic" href="../IMAGE/GALLERY/SENIOR/5.jpg"><img src="../IMAGE/GALLERY/SENIOR/5.jpg"></a>
+		</i>
+		<i>
+			<a target="zoom-pic" href="../IMAGE/GALLERY/SENIOR/6.jpg"><img src="../IMAGE/GALLERY/SENIOR/6.jpg"></a>
+		</i>
+		<i>
+			<a target="zoom-pic" href="../IMAGE/GALLERY/SENIOR/7.jpg"><img src="../IMAGE/GALLERY/SENIOR/7.jpg"></a>
+		</i>
+		<i>
+			<a target="zoom-pic" href="../IMAGE/GALLERY/SENIOR/8.jpg"><img src="../IMAGE/GALLERY/SENIOR/8.jpg"></a>
+		</i>
+		<i>
+			<a target="zoom-pic" href="../IMAGE/GALLERY/SENIOR/9.jpg"><img src="../IMAGE/GALLERY/SENIOR/9.jpg"></a>
+		</i>
+		<i>
+			<a target="zoom-pic" href="../IMAGE/GALLERY/SENIOR/10.jpg"><img src="../IMAGE/GALLERY/SENIOR/10.jpg"></a>
+		</i>
+		<i>
+			<a target="zoom-pic" href="../IMAGE/GALLERY/SENIOR/11.jpg"><img src="../IMAGE/GALLERY/SENIOR/11.jpg"></a>
+		</i>	
+	</div>
+	
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+</body>
+</html>

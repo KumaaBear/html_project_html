@@ -1,0 +1,96 @@
+body{
+	background-image:url('../IMAGE/HOME/cat-a3.png');
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size: cover;
+	background-size: 100% 100%;
+	margin:0 auto;
+}
+h1{
+	font-family: 'roboto',monospace;
+	font-variant:small-caps;
+	font-size:5em;
+	text-shadow:1px 1px 3px #ED4C30;
+	padding-left:50px;
+	margin-top:0;
+
+}
+/*This is for navigation*/
+.navigation {
+	position: sticky;
+	top:50% !important;
+	bottom:auto;
+	height: 50px;
+}
+	ul{
+		list-style-type:none;
+		margin:0;
+		padding:0;
+		width:50px;
+		background-color:#000000;
+	}
+	li a{
+		display:block;
+		color:#000;
+		padding:8px 10px;
+		text-decoration:none;
+	}
+	li a:hover{
+		color:white;
+		background-color:#000000;
+		width:40px;
+	}
+.nav-img{
+	height:30px;
+	width:30px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:tranparent;
+}
+
+/*container*/
+.container{
+	height: auto;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.photo-container{
+	background-color: #333;
+	border-radius: 2%;
+	display: inline-block;
+	height: auto;
+	width: 400px;
+	margin: 6px;
+}
+	.second-container{
+		height: auto;
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-top: 2%;
+		margin-bottom: 2%;
+	}
+.photo{
+	width: 400px;
+	height: 340px;
+}	
+figcaption{
+	display: inline-block;
+	color: white;
+	letter-spacing: .1em;
+	font-variant: small-caps;
+	font-size: 1.255em;
+	text-indent: 0.5em;
+}
+.text{
+	display: inline-block;
+	color: white;
+	letter-spacing: .1em;
+	font-variant: small-caps;
+	font-size: 1em;
+	text-indent: 1.5em;
+	text-align: justify;
+	margin: 10px;
+}
+
+
+

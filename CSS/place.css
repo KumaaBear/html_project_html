@@ -1,0 +1,129 @@
+body{
+	background-image:url('../IMAGE/HOME/cat-a3.png');
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size: cover;
+	background-size: 100% 100%;
+	margin:0 auto;
+}
+h1{
+	font-family: 'roboto',monospace;
+	font-variant:small-caps;
+	font-size:5em;
+	text-shadow:1px 1px 3px #ED4C30;
+	padding-left:50px;
+	margin-top:0;
+
+}
+h2{
+	font-family: 'roboto', monospace;
+	font-variant: small-caps;
+	font-size: 2em;
+	font-weight: heavy;
+	text-align: center;
+	margin-left: 5%;
+	margin-top: 8%;
+	width: 400px;
+	color: black;
+	background-color: #ED4C30;
+}
+/*This is for navigation*/
+.navigation {
+	position: sticky;
+	top:50% !important;
+	bottom:auto;
+	height: 50px;
+}
+	ul{
+		list-style-type:none;
+		margin:0;
+		padding:0;
+		width:50px;
+		background-color:#000000;
+	}
+	li a{
+		display:block;
+		color:#000;
+		padding:8px 10px;
+		text-decoration:none;
+	}
+	li a:hover{
+		color:white;
+		background-color:#000000;
+		width:40px;
+	}
+.nav-img{
+	height:30px;
+	width:30px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:tranparent;
+}
+
+/*container*/
+.paris-container{
+	margin-right: 5%;
+	margin-left: 5%;
+}
+.paris-container img{
+	height: 200px;
+	width: 250px;
+	border-radius: 2%;
+	padding: 20px;
+}
+.paris-container .paris-one{
+	float: left;
+	height: 300px;
+}
+.paris-container .paris-two{
+	float: right;
+	width: 300px;
+	padding-top: 0;
+}
+.paris-container .paris-three{
+	float: left;
+}
+.paris-container .paris-four{
+	float: right;
+	margin-top: 0;
+	height: 400px;
+	width: 300px;
+}
+.paris-container .paris-five{
+	float: left;
+	width: 300px;
+	height: 250px;
+}
+.paris-text{
+	font-family: verdana, calibri, 'times new roman', sans-serif;
+	font-size: 1.258em;
+	text-indent: 2em;
+	text-align: justify;
+	text-indent: 2em;
+	background: rgba(255, 255, 255, .8);
+}
+.other-place{
+	border: 2px solid black;
+	margin-left: 6%;
+	margin-bottom: 20px;
+	display: inline;
+	height: 300px;
+	width: 300px;
+	opacity: .5;
+}
+	.other-place:hover{
+		opacity: 1.0;
+	}
+
+/*this is for go back page*/
+.back{
+	margin: auto;
+	float: right;
+	padding: 5px;
+	margin-bottom: 40px;
+	margin-right: 2%;
+}
+.back-image{
+	height: 70px;
+	width: 70px;
+}

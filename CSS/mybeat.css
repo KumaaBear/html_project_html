@@ -1,0 +1,145 @@
+body{
+	background-image:url('../IMAGE/HOME/cat-a3.png');
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	background-size: 100% 100%;
+	margin-left:0;
+}
+h1{
+	font-family: 'roboto',monospace;
+	font-variant:small-caps;
+	font-size:5em;
+	text-shadow:1px 1px 3px #ED4C30;
+	padding-left:50px;
+	margin-top:0;
+}
+h2{
+	font-family: 'roboto',monospace;
+	font-variant:small-caps;
+	font-size:2em;
+	text-shadow:1px 1px 3px #ED4C30;
+	padding-left:50px;
+	margin-top:5%;
+	margin-left:2%;
+}
+.song-container{
+	position:relative;
+	width:350px;	
+	background:#fff2e6;
+	border-radius:2%;
+	display:inline-block;
+	margin-left:2%;
+	margin-top:2%;
+	margin-bottom:2%;
+}
+.song-container .image-container{
+	position:relative;
+	width:100%;
+	height:350px;
+}
+.song-container .image-container img{
+	position:absolute;
+	top:0;	
+	left:0;
+	width:100%;
+	height:100%;
+	object-fit:cover;
+}
+.song-container audio{
+	width:100%;
+	outline:none;
+}
+.song-container audio::-webkit-media-controls-enclosure{
+	background:none;
+}
+.title{
+	font-size:1em;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	padding-left:20px;
+	margin-top:1%;
+}
+.all-song-container{
+	background:rgba(60,60,60);
+	border-radius:1%;
+	box-shadow:0 0 10px 5px #ED4C30;
+	height:auto;
+	width:365px;
+	margin-left:5%;
+	margin-top:30px;
+	margin-right:auto;
+	display:inline-block;
+}
+
+/*This is for navigation*/
+.navigation {
+	position: sticky;
+	top:50% !important;
+	bottom:auto;
+	height: 50px;
+}
+	ul{
+		list-style-type:none;
+		margin:0;
+		padding:0;	
+		width:50px;
+		background-color:#000000;
+	}
+	li a{
+		display:block;
+		color:#000;
+		padding:8px 10px;
+		text-decoration:none;
+	}
+	li a:hover{	
+		color:white;
+		background-color:#000000;
+		width:40px;
+	}
+
+.picture-choicer-container{
+	border:2px solid black;
+	border-radius:5%;
+	background-color:#fff;
+	padding:45px;
+	width:400px;
+	margin:40px;
+	margin-left:100px;
+	box-shadow: 5px 5px 7px #FF7C66;
+}
+.choice-container{
+	border:1px solid black;
+	border-radius:20%;
+	padding:10px 20px;
+	font-size:1.150em;
+	font-family:verdana, sans-serif;
+	font-variant:small-caps;
+	margin:10px;
+	color:black;
+}
+	a.choice-container:hover{
+		color:white;
+		font-weight:heavy;
+		background-color:#000;
+		text-decoration:none;
+		box-shadow: 5px 5px 5px #FF7C66;
+	}
+	.choice-container:link{
+		text-decoration:none;
+		background-color:#FF7C66;
+		box-shadow: 5px 5px 5px #000000;
+	}
+.top:hover{
+	transform: scale(1.8);
+	cursor:pointer;
+	padding-right:5;	
+	transition:0.3s;
+}
+.top{
+	float:right;
+	position:sticky;
+	top:95% !important;
+	bottom:auto;
+	margin:70px;
+	height:30px;
+}

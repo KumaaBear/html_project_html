@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+	<title>My Beats</title>
+	<meta charset="utf-8">
+	<meta name="author" content="NINA ANDREI S. ANONUEVO">
+	<meta name="description" content="This is webpage is all about the Home Page of the author.">
+	<link rel="icon" href="icon.png" type="image/x-icon">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../CSS/music.css">
+</head>
+<body>
+
+<h1>Welcome to My Beats</h1>
+
+	<div class="navigation">
+		<ul>
+			<li><a href="../index.html" class="fa fa-home" style="font-size:30px; margin:1px; color:#ffffff;"></a></li>
+			<li><a target="_blank" href="https://web.facebook.com/ninaandrei.anonuevo/" class="fa fa-facebook" style="font-size:30px; margin:5px; color:#ffffff;"></a></li>
+			<li><a target="_blank" href="https://twitter.com/ninyawaa" class="fa fa-twitter" style="font-size:30px; margin:1px; color:#ffffff;"></a></li>
+			<li><a target="_blank" href="https://www.instagram.com/ninyawaaa/" class="fa fa-instagram" style="font-size:30px; margin:1px; color:#ffffff;"></a></li>
+			<li><a href="mailto:anonuevo.ninaandrei@ue.edu.ph" class="fa fa-envelope-o" style="font-size:30px; margin:1px; color:#ffffff;"></a></li>
+		</ul>
+	</div>
+
+<div class="container">
+	<div class="heading">AESPA Playlist</div>
+
+	<div class="music-container">
+		<div class="box">
+				<div class="image">
+					<img src="MEDIA/IMAGES/aespa-next-level-cover.jpg" alt="aespa next level cover">
+				</div>	
+				<div class="music next-level">
+					<figcaption class="title">aespa 에스파 'Next Level'</figcaption>
+					<audio src="MEDIA/aespa 에스파 'Next Level'.mp3" controls />
+				</div>
+		</div>
+
+		<div class="box">
+				<div class="image">
+					<img src="MEDIA/IMAGES/aespa-savage-cover.jpg" alt="aespa savage cover">
+				</div>
+				<div class="music savage">
+					<figcaption class="title">aespa 에스파 'Savage'</figcaption>
+					<audio src="MEDIA/aespa 에스파 'Savage'.mp3" controls />
+				</div>
+		</div>
+	</div>
+</div>
+
+<div class="container-two">
+	<div class="heading-two">ITZY Playlist</div>
+
+	<div class="music-container-two">
+		<div class="box-two">
+			<div class="image-two">
+				<img src="MEDIA/IMAGES/itzy-loco-cover.jpg" alt="">
+			</div>
+			<div class="music-two">
+				<figcaption class="title">ITZY - Sooo LUCKY (있지 마)</figcaption>
+				<audio src="MEDIA/Sooo LUCKY.mp3" controls />
+			</div>
+		</div>
+		
+		<div class="box-two">
+			<div class="image-two">
+				<img src="MEDIA/IMAGES/itzy-guess-who-cover.jpg" alt="">
+			</div>
+			<div class="music-two">
+				<figcaption class="title">ITZY - MAFIA In the morning Lyrics (있지 마)</figcaption>
+				<audio src="MEDIA/ITZY - MAFIA In the morning Lyrics (있지 마 ).mp3" controls />
+			</div>
+		</div>
+	</div>
+</div>	
+
+<div class="container-three">
+
+	<div class="heading-three">JEON Somi</div>
+	<div class="music-container-three">
+		<div class="box-three">
+			<div class="image-three">
+				<img src="MEDIA/IMAGES/somi-cover.jpg" alt="">
+			</div>
+			<div class="music-three">
+				<figcaption class="title">JEON SOMI (전소미) - ‘Anymore’</figcaption>
+				<audio src="MEDIA/JEON SOMI (전소미) - ‘Anymore’.mp3" controls />
+			</div>
+		</div>
+		
+		<div class="box-three">
+			<div class="image-three">
+				<img src="MEDIA/IMAGES/somi-cover.jpg" alt="">
+			</div>
+			<div class="music-three">
+				<figcaption class="title">SOMI (전소미) - 'Don't Let Me Go' [Feat Giriboy]</figcaption>
+				<audio onlclick="" src="MEDIA/somi-dont-let-me-go-feat-giriboy-lyrics-color-coded-han-rom_udQjVweS.mp3" controls />
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
